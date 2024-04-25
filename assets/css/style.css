@@ -132,10 +132,18 @@ html {
     background-color: #ccc;
 }
 
+#header .mobile-menu-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
 #header .mobile-menu-btn,
 #header .search-btn{
     float: right;
     padding: 10px 21px; 
+
 }
 
 #header .mobile-menu-btn:hover {
